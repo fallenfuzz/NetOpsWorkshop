@@ -1,0 +1,3 @@
+collections:
+- name: https://github.com/ipspace/NetOpsWorkshop.git#Ansible/Collections/config-collection
+  type: git

@@ -2,10 +2,15 @@
 .vagrant
 .DS_Store
 /Vagrantfile
+/vagrantfile
 /topology.yml
 # Ignore text files in root directory
 *.txt
+*.ignore.*
 
 # Ignore Ansible retry and log files 
 *.retry
 ansible.log
+
+# Don't publish SFTP configuration
+sftp-config.json
